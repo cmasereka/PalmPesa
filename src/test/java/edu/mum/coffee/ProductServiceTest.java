@@ -12,9 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import edu.mum.coffee.domain.Product;
-import edu.mum.coffee.domain.ProductType;
-import edu.mum.coffee.service.ProductService;
+import com.palmpesa.domain.Product;
+import com.palmpesa.domain.ProductType;
+import com.palmpesa.service.ProductService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

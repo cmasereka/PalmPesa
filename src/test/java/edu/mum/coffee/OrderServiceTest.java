@@ -13,15 +13,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import edu.mum.coffee.domain.Address;
-import edu.mum.coffee.domain.Order;
-import edu.mum.coffee.domain.Orderline;
-import edu.mum.coffee.domain.Person;
-import edu.mum.coffee.domain.Product;
-import edu.mum.coffee.domain.ProductType;
-import edu.mum.coffee.service.OrderService;
-import edu.mum.coffee.service.PersonService;
-import edu.mum.coffee.service.ProductService;
+import com.palmpesa.domain.Address;
+import com.palmpesa.domain.Order;
+import com.palmpesa.domain.Orderline;
+import com.palmpesa.domain.Person;
+import com.palmpesa.domain.Product;
+import com.palmpesa.domain.ProductType;
+import com.palmpesa.service.OrderService;
+import com.palmpesa.service.PersonService;
+import com.palmpesa.service.ProductService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
